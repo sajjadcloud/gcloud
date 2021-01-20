@@ -10,6 +10,7 @@ if [[ -n $DEVSHELL_PROJECT_ID ]]; then
     echo -e 'Use “gcloud config set project [PROJECT_ID]” to change to a different project.'
     else
     echo -e 'To set your Cloud Platform project in this session use “gcloud config set project [PROJECT_ID]”'
+    echo -e 'Run “code-server --auth=none” to access VSCODE online'
 fi
 
 echo ''
